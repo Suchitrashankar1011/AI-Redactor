@@ -1,0 +1,19 @@
+cursor.AppImage: ignoring input
+Some weights of the model checkpoint at dbmdz/bert-large-cased-finetuned-conll03-english were not used when initializing BertForTokenClassification: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight']
+- This IS expected if you are initializing BertForTokenClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForTokenClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Device set to use cpu
+🤖 Initializing ML models...
+❌ spaCy model not available: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+⚠️  Continuing without spaCy - using Transformers and NLTK only
+✅ Transformers NER pipeline loaded
+✅ NLTK data downloaded
+🤖 ML models initialization complete!
+🚀 Starting AI Sensitive Information Redactor...
+📁 Upload folder: uploads
+📁 Redacted folder: redacted
+🌐 Open your browser and go to: http://localhost:5000
+ * Serving Flask app 'app_light'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
